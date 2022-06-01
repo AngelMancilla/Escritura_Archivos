@@ -14,24 +14,17 @@ namespace Practia_de_Escritura_y_archivos_1
             //Creacion del archivo
             StreamWriter sw = new StreamWriter("Ejemplo.txt", true);
 
-            string[] lines =
-            {
-                "Este es un nuevo texto",
-                "Hola",
-                "Bonito dia :)"
-            };
+            //Pide el nombre y lo guarda en una variable
+            Console.Write("Introduce tu nombre: ");
+            string line = Console.ReadLine();
 
-            //Recorrer archivo para escribir las lineas en el archivo
-            foreach(string line in lines)
-            {
-                //escribir en el archivo
-                sw.WriteLine(line);
-            }
+            //Escribe en el archivo
+            sw.WriteLine(line);
 
             //Cerrar archivo
             sw.Close();
 
-            Console.WriteLine("Escribiendo...");
+            Console.WriteLine("Listo :)");
             Console.ReadLine();
         }
     }
