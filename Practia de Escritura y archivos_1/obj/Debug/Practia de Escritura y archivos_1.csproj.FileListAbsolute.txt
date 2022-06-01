@@ -1,0 +1,7 @@
+C:\Users\angel\Documents\GitHub\Escritura_Archivos\Practia de Escritura y archivos_1\bin\Debug\Practia de Escritura y archivos_1.exe.config
+C:\Users\angel\Documents\GitHub\Escritura_Archivos\Practia de Escritura y archivos_1\bin\Debug\Practia de Escritura y archivos_1.exe
+C:\Users\angel\Documents\GitHub\Escritura_Archivos\Practia de Escritura y archivos_1\bin\Debug\Practia de Escritura y archivos_1.pdb
+C:\Users\angel\Documents\GitHub\Escritura_Archivos\Practia de Escritura y archivos_1\obj\Debug\Practia de Escritura y archivos_1.csproj.AssemblyReference.cache
+C:\Users\angel\Documents\GitHub\Escritura_Archivos\Practia de Escritura y archivos_1\obj\Debug\Practia de Escritura y archivos_1.csproj.CoreCompileInputs.cache
+C:\Users\angel\Documents\GitHub\Escritura_Archivos\Practia de Escritura y archivos_1\obj\Debug\Practia de Escritura y archivos_1.exe
+C:\Users\angel\Documents\GitHub\Escritura_Archivos\Practia de Escritura y archivos_1\obj\Debug\Practia de Escritura y archivos_1.pdb
