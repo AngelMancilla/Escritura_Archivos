@@ -9,13 +9,34 @@ namespace Practia_de_Escritura_y_archivos_1
 {
     class Program
     {
+        //Clase alumnos
+        public class Alumnos
+        {
+            //Tributos
+            string nombre;
+            int edad;
+            string carrera;
+
+            //Constructor
+            public Alumnos (string nombre, int edad, string carrera)
+            {
+                //This
+                this.nombre = nombre;
+                this.edad = edad;
+                this.carrera = carrera;
+            }
+
+             
+        }
+
         static void Main(string[] args)
         {
             //Creacion del archivo
             StreamWriter sw = new StreamWriter("Alumnos.txt", true);
 
             try
-            { //Pide datos del alumno y lo guarda en su respectivo variable
+            { 
+                //Pide datos del alumno y lo guarda en su respectivo variable
                 Console.Write("\nIntroduce tu nombre: ");
                 string nombre = Console.ReadLine();
                 Console.Write("\nIntroduce tu edad: ");
@@ -23,8 +44,10 @@ namespace Practia_de_Escritura_y_archivos_1
                 Console.Write("\nIntroduce tu carrera: ");
                 string carrera = Console.ReadLine();
 
-                //Escribe en el archivo
                 sw.WriteLine(nombre + ", " + edad + " años, " + carrera);
+
+                //Creacion del clase
+                Alumnos alumnos = new Alumnos(nombre, edad, carrera);
             }
             catch(FormatException e)
             {
@@ -43,7 +66,8 @@ namespace Practia_de_Escritura_y_archivos_1
                 Console.WriteLine(e.Message);
             }
 
-            //Cerrar archivo
+            
+            //Cerrar el archivo
             sw.Close();
 
             Console.WriteLine("Listo :)");
